@@ -2,10 +2,15 @@
 
 Node.js USB/HID sequence-based event trigger
 
+The goal of hid-engine is to make it easy to trigger actions via USB devices such as game controllers.
+
 ## Usage
 
-`npm install hid-engine`
+Install the hid-engine package.
 
+`npm install hid-engine --save`
+
+Configure it in your app. This example logs to the console after the [Konami code](http://en.wikipedia.org/wiki/Konami_Code) is entered.
 
 ```javascript
 var HidEngine = require('hid-engine');
