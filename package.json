@@ -12,5 +12,26 @@
     "grunt": "~0.4.2",
     "grunt-contrib-coffee": "~0.8.0",
     "grunt-mocha-test": "~0.8.1"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/watsoncj/hid-engine.git"
+  },
+  "keywords": [
+    "usb",
+    "hid",
+    "controller",
+    "sequence",
+    "event"
+  ],
+  "bugs": {
+    "url": "https://github.com/watsoncj/hid-engine/issues"
+  },
+  "homepage": "https://github.com/watsoncj/hid-engine"
 }
