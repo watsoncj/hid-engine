@@ -12,4 +12,5 @@ describe 'hid-engine', =>
       productId: 17987
       commands: [
         code: [ 0 ]
+        exec: ->
       ]
