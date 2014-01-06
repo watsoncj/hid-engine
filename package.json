@@ -1,6 +1,6 @@
 {
   "name": "hid-engine",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "USB/HID Sequence Based Event Trigger",
   "main": "lib/hid-engine.js",
   "author": "Casey Watson",
