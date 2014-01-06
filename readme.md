@@ -10,7 +10,7 @@ Install the hid-engine package.
 
 `npm install hid-engine --save`
 
-Configure it in your app. This example logs to the console after the [Konami code](http://en.wikipedia.org/wiki/Konami_Code) is entered.
+Configure it in your app. This example logs to the console when the [Konami code](http://en.wikipedia.org/wiki/Konami_Code) is entered.
 
 ```javascript
 var HidEngine = require('hid-engine');
@@ -29,3 +29,12 @@ new HidEngine({
   ]
 });
 ```
+
+- vendorId & productId - uniquely identify the USB device
+- commands - array of sequences to listen for
+- code - sequence that triggers the exec callback
+- exec - callback that is invoked when the code sequence is entered
+
+To lookup the vendor and product IDs, list available devices.
+
+`console.log HidEngine.devices()`
