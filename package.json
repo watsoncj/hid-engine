@@ -1,0 +1,16 @@
+{
+  "name": "hid-engine",
+  "version": "0.0.1",
+  "description": "USB/HID Sequence Based Event Trigger",
+  "main": "lib/hid-engine.js",
+  "author": "Casey Watson",
+  "license": "MIT",
+  "dependencies": {
+    "node-hid": "~0.3.1"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.2",
+    "grunt-contrib-coffee": "~0.8.0",
+    "grunt-mocha-test": "~0.8.1"
+  }
+}
