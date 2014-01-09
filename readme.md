@@ -10,6 +10,8 @@ Install the hid-engine package.
 
 `npm install hid-engine --save`
 
+Debian/Ubuntu: `sudo aptitude install libusb-1.0.0-dev`
+
 Configure it in your app. This example logs to the console when the [Konami code](http://en.wikipedia.org/wiki/Konami_Code) is entered.
 
 ```javascript
@@ -38,3 +40,4 @@ new HidEngine({
 To lookup the vendor and product IDs, list available devices.
 
 `console.log HidEngine.devices()`
+
